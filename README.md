@@ -46,7 +46,10 @@ Use power supply according to your motor driver, in 2 attemps I fried my L293D m
 
 To control the car, use the provided Python script `keyboard_control.py`. This script allows you to drive the car using keyboard inputs on your computer.
 
-#### Prerequisites:
+### Powering the components:
+The car has to be powered properly. Using a 9V battery is not suggested, it is to determine wheter the connections are set or not, also I would suggest a 7v [minimum 400mah] battery and connect it to the motor driver and then using the same battery it is possible to power the esp32 module in the VIN and GND pins.  After powering the esp32 you can wait for atlest 5 seconds before you send commands
+
+### Prerequisites:
 
 - Python installed on your computer
 - Keyboard library (`pip install keyboard`)
