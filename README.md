@@ -1,6 +1,6 @@
 # ESP32-Powered Car
 
-This project involves building a car using an ESP32 microcontroller and an L298N or L293D motor driver to control the steering and back wheels motors.
+This project involves building a car using an ESP32 microcontroller and an L298N or L293D motor driver to control the steering and back wheels motors. I had an old RC controlled car lying around, I removed the radio control PCB and mounted the outputs of the motors of the car respectively
 
 ## Pin Connections for L298N:
 
