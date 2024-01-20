@@ -55,7 +55,7 @@ To control the car, use the provided Python script `keyboard_control.py`. This s
 
 1. Ensure both the computer and the ESP32 are connected to the same Wi-Fi network.
 
-2. Open a terminal and navigate to the directory containing `control_car.py`. Use the "W" "A" "S" "D" keys to naviagte the car after running the script
+2. Open a terminal and navigate to the directory containing `keyboard_control.py`. Use the "W" "A" "S" "D" keys to naviagte the car after running the script
 
 3. Run the script:
 
