@@ -42,4 +42,24 @@ This project involves building a car using an ESP32 microcontroller and an L298N
 
 Use power supply according to your motor driver, in 2 attemps I fried my L293D motor driver, I suggest using L298N motor driver as it is the best in handling excessive power, also for powering the ESP32 you can try different methods. Please Note that a 9V battery is not sufficient to power the ESP32 properly. Feel free to customize the connections based on your hardware setup and specifications.
 
+### Controlling the Car:
+
+To control the car, use the provided Python script `keyboard_control.py`. This script allows you to drive the car using keyboard inputs on your computer.
+
+#### Prerequisites:
+
+- Python installed on your computer
+- Keyboard library (`pip install keyboard`)
+
+#### Usage:
+
+1. Ensure both the computer and the ESP32 are connected to the same Wi-Fi network.
+
+2. Open a terminal and navigate to the directory containing `control_car.py`. Use the "W" "A" "S" "D" keys to naviagte the car after running the script
+
+3. Run the script:
+
+   ```bash
+   python keyboard_control.py
+
 You can reach me out on my email here: [Mail me here](mailto:numerchauhan@gmail.com)
