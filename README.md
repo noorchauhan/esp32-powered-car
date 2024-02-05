@@ -30,7 +30,7 @@ This project involves building a car using an ESP32 microcontroller and an L298N
 - **VIN of L293D:** Connected to Positive (+) of 9V Battery.
 - **GND of L293D:** Connected to Negative (-) of 9V Battery.
 
-## My Actual Setup:
+## My Actual Setup (Bit messy, but works):
 ![Car](https://github.com/noorchauhan/esp32-powered-car/blob/main/Car.jpg)
 
 ## Instructions:
